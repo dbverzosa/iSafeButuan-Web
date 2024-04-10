@@ -1,22 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Home.js';
+import PerStationOne from './PerStationOne.js';
+import Reports from './Reports.js';
+import StationFive from './StationFive.js';
+import StationFour from './StationFour.js';
+import StationOne from './StationOne.js';
+import StationThree from './StationThree.js';
+import StationTwo from './StationTwo.js';
+// import firestore from './Firebase-config';
+
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+     <PerStationOne/>
+        {/* <Home/> */}
+        {/* <Reports/> */}
+        {/* <StationOne/>
+        <StationTwo/>
+        <StationThree/>
+        <StationFour/>
+        <StationFive/> */}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
       </header>
     </div>
   );
